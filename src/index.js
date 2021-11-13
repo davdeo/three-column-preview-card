@@ -1,4 +1,4 @@
-import './style.css';
+import './assets/style/style.css';
 
 function component() {
     const element = document.createElement('div');

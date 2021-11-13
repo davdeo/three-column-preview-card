@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/64/time</title>
+    <g id="icon/64/time" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="canvas" x="0" y="0" width="64" height="64"></rect>
+        <path d="M32,14 C41.9411255,14 50,22.0588745 50,32 C50,41.9411255 41.9411255,50 32,50 C22.0588745,50 14,41.9411255 14,32 C14,22.0588745 22.0588745,14 32,14 Z M32,16 C23.163444,16 16,23.163444 16,32 C16,40.836556 23.163444,48 32,48 C40.836556,48 48,40.836556 48,32 C48,23.163444 40.836556,16 32,16 Z M33,19 L33,31.5 L39,37.5 L37.5,39 L31,32.5 L31,19 L33,19 Z" id="icon" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>
