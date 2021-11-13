@@ -1,7 +1,11 @@
-
+body {
+    background: no-repeat url("../images/icon-sedans.svg");
+    background-size: 200px;
+}
 
 .hello {
-    background: url("../images/icon-time.svg");
-    color: red;
-    font-family: MyFont, sans-serif;
+    color: var(--color-cyan--very-dark);
+    font-family: LexendDeca, sans-serif;
+    font-size: var(--font-size);
 }
+

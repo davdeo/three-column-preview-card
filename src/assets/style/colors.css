@@ -1,0 +1,8 @@
+:root {
+    --color-orange: hsl(31 77% 52%);
+    --color-cyan--dark: hsl(184 100% 22%);
+    --color-cyan--very-dark: hsl(179 100% 13%);
+
+    --color-white--transparent: hsl(0 0% 100% / 0.75);
+    --color-grey--very-light: hsl(0 0% 95%);
+}
