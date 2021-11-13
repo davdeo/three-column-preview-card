@@ -1,0 +1,22 @@
+{
+  "name": "three-column-preview-card",
+  "version": "1.0.0",
+  "description": "Frontendmentor 3 column preview card",
+  "main": "index.js",
+  "scripts": {
+    "run": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davdeo/three-column-preview-card.git"
+  },
+  "author": "David Monz",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/davdeo/three-column-preview-card/issues"
+  },
+  "homepage": "https://davdeo.github.io/three-column-preview-card/#",
+  "devDependencies": {
+    "webpack": "^5.64.0"
+  }
+}
