@@ -1,13 +1,7 @@
 
-@font-face {
-    font-family: 'MyFont';
-    src: url('../fonts/test-font.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
 
 .hello {
+    background: url("../images/icon-time.svg");
     color: red;
-    background-image: url('../images/icon-time.svg');
-    font-family: MyFont, serif;
+    font-family: MyFont, sans-serif;
 }

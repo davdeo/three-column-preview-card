@@ -1,6 +1,4 @@
-import './assets/style/style.css';
-
-function component() {
+export default function app() {
     const element = document.createElement('div');
 
     // Lodash, currently included via a script, is required for this line to work
@@ -9,5 +7,3 @@ function component() {
 
     return element;
 }
-
-document.body.appendChild(component());
