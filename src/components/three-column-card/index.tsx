@@ -1,9 +1,6 @@
-export default function threeCardComponent() {
-    const element = document.createElement('div');
+import React from 'react';
+import './style.css';
 
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = 'Hello World!';
-    element.classList.add('hello');
-
-    return element;
-}
+export const ThreeColumnCard: React.FunctionComponent = () => {
+    return <div className={'three-column-card'}>Hello</div>;
+};
