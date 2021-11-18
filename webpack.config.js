@@ -2,15 +2,19 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: {
+        app: path.join(__dirname, 'src', 'index.tsx')
+    },
+    target: 'web',
     output: {
-        filename: 'bundle.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Three cards'
+            title: 'Three cards',
+            template: path.resolve(__dirname, 'src', 'index.html')
         })
     ],
     devtool: 'inline-source-map',

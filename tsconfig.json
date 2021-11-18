@@ -2,7 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "jsx": "react",
-        "outDir": "tsdist/",
+        "outDir": "./dist",
         "moduleResolution": "node",
         "module": "es6",
         "target": "es2020",
