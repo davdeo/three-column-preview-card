@@ -1,3 +1,11 @@
+:root {
+    --font--lexendDeca: LexendDeca;
+    --font--bigShouldersDisplay: BigShouldersDisplay;
+
+    --font-size--default: 16px;
+    --font-size--heading: 24px;
+}
+
 @font-face {
     font-family: 'LexendDeca';
     src: url('../fonts/LexendDeca.ttf') format('truetype');
@@ -11,3 +19,4 @@
     font-weight: 700;
     font-style: normal;
 }
+

@@ -4,5 +4,6 @@
     --color-cyan--very-dark: hsl(179 100% 13%);
 
     --color-white--transparent: hsl(0 0% 100% / 0.75);
+    --color-white: hsl(0 0% 100%);
     --color-grey--very-light: hsl(0 0% 95%);
 }

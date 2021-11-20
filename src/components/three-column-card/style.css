@@ -1,3 +1,42 @@
 .three-column-card {
-    color: red;
+    display: flex;
+    flex-direction: column;
+
+    color: var(--color-white);
+    font-family: var(--font--lexendDeca);
+    font-size: var(--font-size--default);
+}
+
+@media(min-width: 50rem) {
+    .three-column-card {
+        flex-direction: row;
+    }
+}
+
+.column {
+    width: 320px;
+    padding: 48px;
+}
+
+.column > h3 {
+    font-family: var(--font--bigShouldersDisplay);
+    text-transform: uppercase;
+    font-size: var(--font-size--heading);
+}
+
+.column > .content {
+    color: var(--color-white--transparent);
+}
+
+
+.sedans {
+    background-color: var(--color-orange);
+}
+
+.suvs {
+    background-color: var(--color-cyan--dark);
+}
+
+.luxury {
+    background-color: var(--color-cyan--very-dark);
 }
