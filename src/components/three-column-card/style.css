@@ -2,12 +2,15 @@
     display: flex;
     flex-direction: column;
 
+    border-radius: 8px;
+    overflow: hidden;
+
     color: var(--color-white);
     font-family: var(--font--lexendDeca);
     font-size: var(--font-size--default);
 }
 
-@media(min-width: 50rem) {
+@media(min-width: 1000px) {
     .three-column-card {
         flex-direction: row;
     }
@@ -19,12 +22,16 @@
 }
 
 .column > h3 {
+    margin-top: 32px;
+
     font-family: var(--font--bigShouldersDisplay);
     text-transform: uppercase;
     font-size: var(--font-size--heading);
 }
 
 .column > .content {
+    margin-top: 24px;
+
     color: var(--color-white--transparent);
 }
 
@@ -39,4 +46,47 @@
 
 .luxury {
     background-color: var(--color-cyan--very-dark);
+}
+
+.column > .button {
+    display: block;
+
+    margin-top: 32px;
+    margin-inline: auto;
+    border: 2px solid transparent;
+    border-radius: 100vw;
+    width: fit-content;
+    padding: 12px 32px;
+
+    background-color: var(--color-white);
+
+    text-decoration: none;
+}
+
+@media(min-width: 1000px) {
+    .column > .button {
+        margin-top: 64px;
+    }
+}
+
+.column.sedans > .button {
+    color: var(--color-orange);
+}
+
+.column.suvs > .button {
+    color: var(--color-cyan--dark);
+}
+
+.column.luxury > .button {
+    color: var(--color-cyan--very-dark);
+}
+
+.column > .button:hover,
+.column > .button:focus-visible {
+    outline: none;
+    border: 2px solid var(--color-white);
+
+    background-color: inherit;
+
+    color: var(--color-white);
 }

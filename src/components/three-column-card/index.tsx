@@ -12,7 +12,7 @@ export const ThreeColumnCard: React.FunctionComponent = () => {
                     Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or
                     on your next road trip.
                 </p>
-                <a href="" className="button">
+                <a href="#" className="button">
                     Learn More
                 </a>
             </div>
@@ -23,7 +23,7 @@ export const ThreeColumnCard: React.FunctionComponent = () => {
                     Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
                     and off-road adventures.
                 </p>
-                <a href="" className="button">
+                <a href="#" className="button">
                     Learn More
                 </a>
             </div>
@@ -34,7 +34,7 @@ export const ThreeColumnCard: React.FunctionComponent = () => {
                     Cruise in the best car brands without the bloated prices. Enjoy the enhanced comport of a luxury
                     rental and arrive in style.
                 </p>
-                <a href="" className="button">
+                <a href="#" className="button">
                     Learn More
                 </a>
             </div>
